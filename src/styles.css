@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+}
+
+.header {
+  padding: 0.5rem;
+  background-color: #666;
+}
+
+.header h1 {
+}
+
+.header p > button {
+  border-color: solid 1px darkblue;
+  background-color: solid 1px darkblue;
+  padding: 0.5rem;
+}

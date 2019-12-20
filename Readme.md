@@ -7,7 +7,7 @@ What kind of burger will you create? The choice...is yours!
 
 # Installation
 
-- `git clone git@github.com:matt6frey/react-burgers`
+- `git clone git@github.com:matt6frey/react-burgers.git`
 - `cd react-burgers && npm i`
 - `npm run start`
 

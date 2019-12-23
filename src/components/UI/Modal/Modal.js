@@ -1,11 +1,11 @@
 import React from "react";
 import "./Modal.css";
 
-import Aux from "../../../higher_order/Aux";
+import Container from "../../../higher_order/Container";
 import Backdrop from "../Backdrop/Backdrop";
 
 const modal = props => (
-  <Aux>
+  <Container>
     <Backdrop show={props.show} clicked={props.modalClosed} />
     <div
       style={{
@@ -16,7 +16,7 @@ const modal = props => (
     >
       {props.children}
     </div>
-  </Aux>
+  </Container>
 );
 
 export default modal;

@@ -1,13 +1,13 @@
 import React from "react";
-import Aux from "../../higher_order/Aux";
+import Container from "../../higher_order/Container";
 
 import "./Layout.css";
 
 const layout = props => (
-  <Aux>
+  <Container>
     <div>ToolBar, SideDrawer, BackDrop</div>
     <main className="Content">{props.children}</main>
-  </Aux>
+  </Container>
 );
 
 export default layout;
